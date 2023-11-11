@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "build": "postcss src/input.css -o dist/output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0"
+  }
+}

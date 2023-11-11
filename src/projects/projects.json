@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Todo app",
+      "thumbnail": "./assets/todo.jpeg",
+      "skills": ["HTML", "CSS", "JS"],
+      "link": "https://zahra-mguitaa.github.io/to-do-app/"
+    },
+    {
+      "id": 2,
+      "title": "Multi-step form",
+      "thumbnail": "./assets/multistep.jpeg",
+      "skills": ["HTML", "CSS", "JS"],
+      "link": "https://zahra-mguitaa.github.io/multi-step-form/"
+    },
+    {
+      "id": 3,
+      "title": "REST Countries API",
+      "thumbnail": "./assets/countries.jpg",
+      "skills": ["HTML", "CSS", "JS", "API"],
+      "link": "https://zahra-mguitaa.github.io/REST-Countries-API/"
+    },
+    {
+      "id": 4,
+      "title": "E-commerce product page",
+      "thumbnail": "./assets/ecomproduct.jpeg",
+      "skills": ["HTML", "CSS", "JS"],
+      "link": "https://zahra-mguitaa.github.io/E-commerce-product-page/"
+    },
+    {
+      "id": 5,
+      "title": "Quiz App with React and Redux Toolkit",
+      "thumbnail": "./assets/quizapp.png",
+      "skills": ["HTML", "Tailwindcss", "React", "Redux toolkit", "typscript"],
+      "link": "https://zahra-mguitaa.github.io/E-commerce-product-page/"
+    },
+    {
+      "id": 6,
+      "title": "Shopping cart with react",
+      "thumbnail": "./assets/shopping cart.png",
+      "skills": ["HTML", "Tailwindcss", "React"],
+      "link": "https://zahra-mguitaa.github.io/reactjs-shoping-cart/"
+    }
+  ]
+}

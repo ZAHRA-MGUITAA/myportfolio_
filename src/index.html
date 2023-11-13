@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zahra's portfolio</title>
-    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="dist/output.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -13,9 +13,9 @@
   <body>
     <div class="">
       <div class="bg-[#34353A]">
-        <div class="px-48 flex justify-between items-center">
+        <div class="md:px-48 flex justify-between items-center">
           <img src="./assets/ZAHRA LOGO-03.png" class="w-44" alt="" />
-          <ul class="list-none flex space-x-4">
+          <ul class="list-none flex gap-2 px-4">
             <li class="text-[#ffffff] hover:text-[#AAABAB]">
               <a href="#about">About</a>
             </li>
@@ -38,7 +38,7 @@
               </p>
             </div>
             <p class="text-2xl text-white leading-[3rem]">
-              Junior Front End Developer & looking for internship
+              Junior Front End Developer & looking for an internship
             </p>
             <a href="#contact"
               ><button
@@ -60,7 +60,7 @@
 
       <div class="main bg-[#31333B] shadow-2xl pt-6" id="about">
         <div class="space-y-12">
-          <div class="about container mx-auto md:px-48 px-6">
+          <div class="about container mx-auto px-20 md:px-48 px-6">
             <h2 class="text-3xl text-white font-bold">About</h2>
             <div class="flex justify-center pt-4 gap-2">
               <hr class="bg-[#FFC76B] h-0.5 w-32 mt-3" />
@@ -180,10 +180,12 @@
             >
               <div class="flex gap-4 items-start md:px-20">
                 <div class="flex">
-                  <p class="py-2 pl-2 bg-[#5C5D60] text-white text-xs">
+                  <p
+                    class="py-2 pl-2 bg-[#5C5D60] text-white text-xs"
+                    style="width: 72px !important"
+                  >
                     2020 - 2021
                   </p>
-
                   <div
                     class="h-0 w-0 border-t-[16px] border-l-[15px] border-b-[16px] border-solid border-t-transparent border-b-transparent border-l-[#5C5D60]"
                   ></div>
@@ -205,17 +207,14 @@
                   <p class="text-md text-gray-300">
                     Professional Bachelor's Degree
                   </p>
-                  <!-- <p class="text-md text-[#BABBBC]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Omnis reiciendis libero mollitia sunt repellendus ullam,
-                    delectus error facilis natus? Eius, veniam voluptatibus.
-                    Laborum vitae molestias sit impedit in, eligendi quis.
-                  </p> -->
                 </div>
               </div>
               <div class="flex gap-4 items-start md:px-20">
                 <div class="flex">
-                  <p class="py-2 pl-2 bg-[#5C5D60] text-white text-xs">
+                  <p
+                    class="py-2 pl-2 bg-[#5C5D60] text-white text-xs"
+                    style="width: 72px !important"
+                  >
                     2018 - 2020
                   </p>
 
@@ -240,17 +239,14 @@
                   <p class="text-md text-gray-300">
                     University Diploma in Technology
                   </p>
-                  <!-- <p class="text-md text-[#BABBBC]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Omnis reiciendis libero mollitia sunt repellendus ullam,
-                    delectus error facilis natus? Eius, veniam voluptatibus.
-                    Laborum vitae molestias sit impedit in, eligendi quis.
-                  </p> -->
                 </div>
               </div>
               <div class="flex gap-4 items-start md:px-20">
                 <div class="flex">
-                  <p class="py-2 pl-2 bg-[#5C5D60] text-white text-xs">
+                  <p
+                    class="py-2 pl-2 bg-[#5C5D60] text-white text-xs"
+                    style="width: 72px !important"
+                  >
                     2017 - 2018
                   </p>
 
@@ -273,19 +269,13 @@
                     Al-Irfane High School, Sebt El Geurdane
                   </p>
                   <p class="text-md text-gray-300">Science Mathematics A</p>
-                  <!-- <p class="text-md text-[#BABBBC]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Omnis reiciendis libero mollitia sunt repellendus ullam,
-                    delectus error facilis natus? Eius, veniam voluptatibus.
-                    Laborum vitae molestias sit impedit in, eligendi quis.
-                  </p> -->
                 </div>
               </div>
             </div>
           </div>
           <div
             id="portfolio"
-            class="portfolio space-y-12 container mx-auto md:px-48 px-6"
+            class="portfolio space-y-12 container mx-auto md:px-48 lg:px-0 xl:px-0"
           >
             <h2 class="text-3xl text-white font-bold text-center">Portfolio</h2>
             <div class="flex flex-col gap-4">
@@ -308,26 +298,29 @@
           </div>
 
           <div
-            class="into flex flex-col md:flex-row gap-4 justify-center md:justify-items-start items-center"
+            class="into flex flex-col md:flex-row gap-4 justify-center md:justify-items-start items-center px-4"
           >
             <div
-              class="flex bg-[#31333B] px-8 py-2 items-center gap-2 rounded-lg w-fit justify-center"
+              class="flex bg-[#31333B] px-8 py-2 items-center gap-2 rounded-lg w-full md:w-email lg:w-fit justify-center"
             >
               <i class="fa-regular fa-envelope" style="color: #ffffff"></i>
-              <p class="text-lg text-[#FFC86B]">
+              <a
+                href="mailto:zahra.mguitaa.contact@gmail.com"
+                class="text-lg text-[#FFC86B]"
+              >
                 zahra.mguitaa.contact@gmail.com
-              </p>
+              </a>
             </div>
             <div
-              class="flex bg-[#31333B] px-8 py-2 items-center gap-2 rounded-lg w-56 justify-center"
+              class="flex bg-[#31333B] px-8 py-2 items-center gap-2 rounded-lg w-full md:w-phone lg:w-56 justify-center"
             >
               <i class="fa-solid fa-phone" style="color: #ffffff"></i>
               <p class="text-lg text-[#FFC86B]">0606361252</p>
             </div>
           </div>
-          <div class="into flex gap-4 justify-center justify-items-start">
+          <div class="into flex gap-4 justify-center justify-items-start px-4">
             <div
-              class="flex bg-[#31333B] px-8 py-2 items-center gap-2 rounded-lg w-56 justify-center"
+              class="flex bg-[#31333B] px-8 py-2 items-center gap-2 rounded-lg w-full md:w-address lg:w-56 justify-center"
             >
               <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
               <p class="text-lg text-[#FFC86B]">Agadir, Morocco</p>
@@ -336,13 +329,17 @@
           <div class="flex gap-12 justify-between items-end">
             <hr class="w-full bg-[#FFC76B] h-0.5" />
             <div class="flex gap-4 -mb-2">
-              <a href="https://www.linkedin.com/in/zahra-m-guitaa-5b252a177/"
+              <a
+                href="https://www.linkedin.com/in/zahra-m-guitaa-5b252a177/"
+                target="_blank"
                 ><i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i
               ></a>
-              <a href="https://wa.me/qr/H4BAOGJZD3XPK1">
+              <a href="https://wa.me/qr/H4BAOGJZD3XPK1" target="_blank">
                 <i class="fa-brands fa-whatsapp" style="color: #ffffff"></i
               ></a>
-              <a href="https://github.com/ZAHRA-MGUITAA?tab=repositories"
+              <a
+                href="https://github.com/ZAHRA-MGUITAA?tab=repositories"
+                target="_blank"
                 ><i class="fa-brands fa-github" style="color: #ffffff"></i
               ></a>
             </div>
@@ -376,7 +373,7 @@
                     <h3 class="text-xl text-white font-bold">
                       ${item.title}
                     </h3>
-                    <div class="flex flex-row justify-between">
+                    <div class="flex flex-col md:flex-row justify-between">
                       <div class="flex gap-2">
                         ${item.skills
                           .map(
@@ -388,7 +385,7 @@
                       </div>
                       <a href=${
                         item.link
-                      } class="bg-transparent text-[#FFC76B] ">
+                      } target="_blank" class="bg-transparent text-[#FFC76B] ">
                         view online
                       </a >
                     </div>
